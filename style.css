@@ -1,0 +1,83 @@
+body{
+    background-image: url(img/bg-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.main-container{
+    /* display: flex;  */
+    justify-content: center;
+    align-items: center; 
+    width: 900px;
+    height: 500px;
+    /* border: 1px solid red; */
+    margin: auto;
+    background: linear-gradient(0.25turn,rgb(103, 75, 177),rgba(102, 75, 177, 0.863) ,rgb(102, 75, 177)) ;
+    margin-top: 70px;
+}
+.nav-bar img{
+    width: 150px;
+    align-items: center;
+    padding: 20px;
+
+}
+.card-container{
+    display: flex;
+}
+.left-bar{
+     margin: auto; 
+    display: flex;
+    padding: 1rem; 
+}
+.left-bar img {
+    width: 450px;
+    height: 350px;
+    margin: auto;
+}
+
+.right-bar{
+    margin: auto;
+    padding: 2rem;
+}
+.text-card{
+    margin-top: -55px;
+}
+.button{
+    margin: 2px;
+}
+.button button{
+    border-radius: 50px;
+    border-style: none;
+    padding: 5px 40px; 
+    /* width: 40%; */
+
+}
+
+.button a{
+    text-decoration: none;
+    font-size: ;
+    padding: 10px;
+}
+.button a:hover{
+    cursor: pointer;
+    padding-bottom: 40px;
+}
+.icons{
+    /* position: absolute;
+    right: 0;
+    bottom: 0; */
+    float: right;
+    
+}
+.icons a {
+    color: white;
+}
+.icons i {
+    border:1px solid white ;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
